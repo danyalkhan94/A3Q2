@@ -1,3 +1,9 @@
+/*
+* Course: SYST44288 Operating Systems Designs & Systems Programming
+* Assignment: 3
+* Name: Dalton Lu & Danyal Khan
+* Scope: Write a server which can take multiple incoming clients using threads
+*/
 
 import java.net.ServerSocket;
 import java.net.Socket;
