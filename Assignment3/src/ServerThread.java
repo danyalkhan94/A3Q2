@@ -1,3 +1,10 @@
+/*
+* Course: SYST44288 Operating Systems Designs & Systems Programming
+* Assignment: 3
+* Name: Dalton Lu & Danyal Khan
+* Scope: Write a server which can take multiple incoming clients using threads
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
