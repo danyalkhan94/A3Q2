@@ -19,7 +19,7 @@ public class ServerThread extends Thread {
 	public void run() {
 		try {
 			String str;
-			BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+			BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream())); // New Thread for new client with inputstream
 			PrintWriter out = new PrintWriter(socket.getOutputStream(), true);
 			do
 			{
