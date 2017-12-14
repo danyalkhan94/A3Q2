@@ -17,7 +17,7 @@ public class EchoClient {
 			Socket server = new Socket("127.0.0.1", 1234);
 			BufferedReader reader = new BufferedReader(new InputStreamReader(server.getInputStream()));
 			PrintWriter writer = new PrintWriter(server.getOutputStream(), true);
-			BufferedReader con = new BufferedReader(new InputStreamReader(System.in));
+			BufferedReader con = new BufferedReader(new InputStreamReader(System.in)); // Fixed Buffers
 			String str;
 			str = con.readLine();
 			writer.println(str);
