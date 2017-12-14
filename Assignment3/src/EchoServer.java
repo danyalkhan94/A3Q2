@@ -26,3 +26,4 @@ public class EchoServer {
 	}
 
 }
+//fixed server response issue
